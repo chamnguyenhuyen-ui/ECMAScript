@@ -1,9 +1,5 @@
-// src/pages/Home.jsx
-
 import TourCard from '../components/TourCard';
 import Heading from '../components/Heading';
-
-// Dữ liệu giả lập các tour (Tạm thời đặt ở đây)
 const tours = [
   {
     id: 1,
@@ -34,15 +30,13 @@ const tours = [
 function Home() {
   return (
     <main className="px-4 py-6">
-      {/* Heading */}
+
       <Heading title="Tour Nội Địa" />
 
-      {/* Mô tả */}
       <p className="text-xl font-medium my-2 px-2">
         Các chuyến đi đồng hành cùng chúng tôi là khoảnh khắc đặc biệt, luôn sẵn sàng tạo ra những trải nghiệm độc đáo và không quên cho du khách, giúp mang đến những chuyến hành trình tuyệt vời.
       </p>
 
-      {/* Danh sách TourCard */}
       <div className="flex flex-wrap justify-center gap-4 mt-4">
         {tours.map(tour => (
           <TourCard

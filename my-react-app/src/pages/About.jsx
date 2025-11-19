@@ -1,5 +1,3 @@
-// src/pages/About.jsx
-
 function About() {
   return (
     <main className="text-center py-20">
